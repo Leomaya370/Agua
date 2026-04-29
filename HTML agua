@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Banner Agua Purificada</title>
+  <style>
+    .banner {
+      background: linear-gradient(to right, #00c6ff, #0072ff);
+      color: white;
+      text-align: center;
+      padding: 40px;
+      font-family: Arial, sans-serif;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    }
+    .banner h1 {
+      font-size: 2.5em;
+      margin-bottom: 10px;
+    }
+    .banner p {
+      font-size: 1.2em;
+      margin-bottom: 20px;
+    }
+    .banner .cta {
+      background: white;
+      color: #0072ff;
+      padding: 12px 25px;
+      font-size: 1.1em;
+      font-weight: bold;
+      border-radius: 5px;
+      text-decoration: none;
+      transition: background 0.3s;
+    }
+    .banner .cta:hover {
+      background: #f0f0f0;
+    }
+  </style>
+</head>
+<body>
+  <div class="banner">
+    <h1>💧 Agua Purificada Premium</h1>
+    <p>Filtrada en 7 etapas + UV.  
+       Más segura que el manantial, lista para tu familia.</p>
+    <a href="#comprar" class="cta">¡Haz tu pedido hoy!</a>
+  </div>
+</body>
+</html>
